@@ -1,0 +1,12 @@
+{
+  "name": "test-minecraft",
+  "description": "Custom Minecraft Education tutorials",
+  "license": "MIT",
+  "public": true,
+  "files": [
+    "rainy.md"
+  ],
+  "dependencies": {
+    "minecraft": "*"
+  }
+}
