@@ -1,25 +1,35 @@
-# Tutorial: Chicken Rain
+# Parrot Rain
 
-Welcome to *Chicken Rain*!  
-In this tutorial, you will learn how to use **chat commands**, **loops**, and **spawn positions** in Minecraft Education MakeCode.
+## Welcome to Codeezy's Parrot Rain Code Tutorial!
+In this activity, you will learn key programming concepts such as **Loops**, **Sequences**, and **Events**!
 
----
+Have fun!
 
-## Step 1: Create a new chat command
+## Step 1: Start the Chat Command
+We’ll begin by creating a chat command that triggers our Parrot Rain!  
 
-Start by creating a chat command block so the player can trigger Chicken Rain.
+Drag out the block **on chat command** and rename it to **"parrotrain"**
 
-1. Open the Player category.
+```blocks
+player.onChat("parrotrain", function () {
+})
 
-2. Drag out the block:  
-   ``||player:on chat command "___"||`` block
+## Step 2: Add a "Spawn" Block
 
+Drag out the block **spawn animal** and look for parrots!
 
-## Step 2: Rename the chat command
-1. Change the command text to rain
+## Step 3: Make your parrot spawn from the sky!
 
-## Step 3: Event Action
-1. Insert the chicken block and put it inside the on chat command block!
+Amend the second 0 in the spawn block to 10!
 
-## Step 4: Test Code!
-1. Let's see what happens now when we type 'rain'!
+## Step 4: Test your code!
+
+It is important to test out your code at different iterations to ensure that you are on the right track!
+
+## Step 5: Let's spawn a lot of parrots from the sky!
+
+Put a repeat block in between the spawn block and repeat 100 times!
+
+## Step 6: Test your code!
+
+You have successfully completed the Parrot Rain activity!
